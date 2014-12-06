@@ -1,0 +1,34 @@
+{
+  "name": "gloh",
+  "version": "0.1.0",
+  "description": "unglob a list of files/globs.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "bluebird": "^2.3.11",
+    "glob": "^4.3.1",
+    "uniq": "^1.0.1"
+  },
+  "devDependencies": {
+    "tap": "^0.4.13"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kdjs/gloh.git"
+  },
+  "keywords": [
+    "glob",
+    "files"
+  ],
+  "author": "Onur Gunduz <ogunduz@gmail.com> (http://onurgunduz.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kdjs/gloh/issues"
+  },
+  "homepage": "https://github.com/kdjs/gloh"
+}
