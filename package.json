@@ -1,6 +1,6 @@
 {
   "name": "gloh",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "unglob a list of files/globs.",
   "main": "index.js",
   "directories": {
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kdjs/gloh.git"
+    "url": "https://github.com/tetsuo/gloh.git"
   },
   "keywords": [
     "glob",
@@ -28,7 +28,7 @@
   "author": "Onur Gunduz <ogunduz@gmail.com> (http://onurgunduz.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kdjs/gloh/issues"
+    "url": "https://github.com/tetsuo/gloh/issues"
   },
-  "homepage": "https://github.com/kdjs/gloh"
+  "homepage": "https://github.com/tetsuo/gloh"
 }
