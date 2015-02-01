@@ -1,6 +1,6 @@
 {
   "name": "gloh",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "unglob a list of files/globs.",
   "main": "index.js",
   "directories": {
