@@ -1,6 +1,7 @@
 var glob = require('glob');
 var Promise = require('bluebird');
 var uniq = require('uniq');
+var extend = require('util')._extend;
 
 module.exports = gloh;
 
@@ -11,7 +12,7 @@ function gloh (list, opts, cb) {
   Promise.all(list.map(function (f, i) {
     if (!~f.indexOf('*')) return;
     return (new Promise(function (resolve, reject) {
-      glob(f, {cwd: root}, function (err, res) {
+      glob(f, opts, function (err, res) {
         if (err) reject(err);
         else {
           arr[i] = res;
